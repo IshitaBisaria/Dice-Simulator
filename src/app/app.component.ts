@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'dice-simulator';
@@ -11,6 +11,6 @@ export class AppComponent {
 
   hi(num: number) {
     this.img = num;
-    // console.log(num);
+    console.log(num);
   }
 }
